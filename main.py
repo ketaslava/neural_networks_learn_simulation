@@ -1,26 +1,26 @@
 import matplotlib.pyplot as plt
 
 # Intput
-# Данные примерно на начало 2026го года
+# Data approximately at the beginning of 2026
 
-# Население земли
+# Earth's population
 relative_peoples_population = 1.0  # 8 500 000 000 человек
 relative_peoples_population_increase_per_year = 0.006  # + 50 000 000 в год
 
-# Данные, производимые человеком
+# Human-generated data
 real_human_data_volume = 2.9  # zb
 real_human_data_volume_increase_per_year = 0.5  # zb
 
-# Данные, производимые не человеком
+# Non-human-generated data
 real_no_human_data_volume = 0.4  # zb
 real_no_human_data_volume_increase_per_year = 0.2  # zb
 
-# Развитие нейросетей
+# Development of neural networks
 relative_nn_learn_progress = 1.0
 relative_nn_learn_progress_increase_per_year = 1.2  # 20%
 nn_degradation_when_use_no_human_data = 0.5
 
-# Симуляция
+# Simulation
 years_to_simulation = 30
 is_add_geometric_progression_demo_plot = True  # True / False
 is_add_network_data_volume_plot = True  # True / False
